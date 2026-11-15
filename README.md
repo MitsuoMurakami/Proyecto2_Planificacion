@@ -1,1 +1,1 @@
-# Proyecto2_Planificaci-n
+# Proyecto2_Planificacion
