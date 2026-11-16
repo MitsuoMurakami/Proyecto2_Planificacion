@@ -1,0 +1,14 @@
+# Modelos generativos y de visión (GPU de 16-24 GB recomendada)
+-r requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch>=2.4
+torchvision
+# FLUX.2 [klein] requiere una versión reciente de diffusers (o la rama main)
+diffusers>=0.36
+transformers>=4.46
+accelerate>=1.0
+safetensors
+sentencepiece
+lpips>=0.1.4
+matplotlib>=3.8
+bitsandbytes>=0.45   # codificador de texto de FLUX en 4 bits en GPUs < 20 GB (T4)

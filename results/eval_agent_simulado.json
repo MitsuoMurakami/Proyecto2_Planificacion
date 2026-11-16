@@ -1,0 +1,27 @@
+{
+  "llm": "simulado",
+  "n_sesiones": 100,
+  "error_rate_simulado": 0.3,
+  "sin_verificador": {
+    "json_valido": 0.96,
+    "exactitud_listas": 0.85,
+    "tasa_alucinacion_o_error": 0.29
+  },
+  "con_verificador": {
+    "exactitud_listas": 1.0,
+    "salida_valida": 1.0,
+    "valido_al_primer_intento": 0.71,
+    "uso_plantilla": 0.0,
+    "intentos_medios": 1.31
+  },
+  "segundos_medios": 0.0012947690009605139,
+  "errores_detectados_sin_verificador": {
+    "Faltan aceptadas": 11,
+    "Contradicción": 8,
+    "Marcadas como rechazadas sin estarlo en el registr": 7,
+    "JSON inválido": 4,
+    "El resumen atribuye un motivo (": 3,
+    "El resumen menciona": 3
+  },
+  "duracion_total_s": 0.31719183921813965
+}

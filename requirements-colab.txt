@@ -1,0 +1,10 @@
+# Google Colab (GPU T4): torch y torchvision ya vienen instalados con CUDA; NO se reinstalan.
+-r requirements.txt
+diffusers>=0.36            # si no trae Flux2KleinPipeline, setup.sh instala la rama main
+transformers>=4.46
+accelerate>=1.0
+safetensors
+sentencepiece
+lpips>=0.1.4
+matplotlib>=3.8
+bitsandbytes>=0.45         # codificador de texto de FLUX en 4 bits: FLUX cabe en los 15 GB de la T4

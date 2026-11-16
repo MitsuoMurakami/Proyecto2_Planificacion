@@ -1,0 +1,7 @@
+# Núcleo (modo de prueba sin GPU): interfaz, registro, planificador, agente y verificador
+numpy>=1.26
+pillow>=10.3
+opencv-python-headless>=4.9,<5   # OpenCV 5 retiró las Haar cascades del paquete base
+gradio>=5.0
+anthropic>=0.75
+pytest>=7.4

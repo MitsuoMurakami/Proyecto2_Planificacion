@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+data/
+results/generation*/
+*.sqlite
+.pytest_cache/
+
+# Credenciales y datos personales (no subir ni compartir)
+Mitsuo/
+Kiphu.txt
+Khipu.txt
+
+# Paquete para Colab
+paisajia_colab.zip
